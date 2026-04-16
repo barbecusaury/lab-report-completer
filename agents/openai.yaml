@@ -1,0 +1,4 @@
+interface:
+  display_name: "Complete Lab Report"
+  short_description: "Complete lab reports from requirements and templates."
+  default_prompt: "Use $complete-lab-report to complete an experiment report from requirements, templates, and optional code assets."
