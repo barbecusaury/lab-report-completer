@@ -82,14 +82,14 @@ Do not front-load every question. If a placeholder is acceptable, write the draf
 
 ### 3.1 Reusing Known Identity Fields
 
-If a persistent memory file such as `~/.codex/memories/PROFILE.md` already contains stable lab-report identity fields, prefer reusing them instead of asking from scratch every time.
+If reliable identity information is already available from prior context, stored profile data, or other stable user memory, prefer reusing it instead of asking from scratch every time.
 
 Use this rule:
 
-1. On the first use, if the required identity fields are missing from memory, ask for the minimum blocking set such as student name, student number, class, and major.
-2. On later uses, if those fields already exist in memory, show them back to the user briefly and ask whether this report should use the previously stored values.
-3. Only overwrite stored identity facts when the user explicitly corrects or updates them.
-4. Keep grades, signatures, screenshots, and submission-specific metadata out of long-term memory unless the user explicitly asks to store them.
+1. On the first use, if the required identity fields are not yet known, ask for the minimum blocking set such as student name, student number, class, and major.
+2. On later uses, if those fields are already known, show them back to the user briefly and ask whether this report should use the previously known values.
+3. Only overwrite previously known identity facts when the user explicitly corrects or updates them.
+4. Keep grades, signatures, screenshots, and submission-specific metadata out of long-term identity memory unless the user explicitly asks to store them.
 
 See `references/question-policy.md`.
 
@@ -198,3 +198,4 @@ Example 2:
 - `scripts/extract_docx_structure.py`: structured `.docx` inspection
 - `scripts/inspect_docx_targets.py`: heading/table/fill-target discovery
 - `scripts/check_report_completeness.py`: basic report completeness checks
+
