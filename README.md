@@ -2,7 +2,33 @@
 
 你是否也被重复、机械、耗时的实验报告折磨过？那就让 AI 去当牛马吧。
 
+> 把实验做明白，把重复劳动交给 AI。
+>
+> Let AI do the grind, so you can focus on the experiment itself.
+
 `lab-report-completer` is a reusable skill for turning templates, requirements, slides, and project files into near-submission-ready computer lab reports.
+
+## Slogan
+
+中文：
+
+让 AI 去当牛马，替你处理重复、机械、耗时的计算机实验报告写作。
+
+English:
+
+Let AI do the grind for repetitive, mechanical, and time-consuming computer lab reports.
+
+## Why This Exists
+
+Computer lab reports are often less about deep thinking and more about repeated formatting, section filling, screenshot planning, and turning raw materials into something submission-ready.
+
+This skill is built for that exact gap:
+
+- You still do the actual experiment
+- AI handles the repetitive write-up work
+- The final report stays grounded in real templates, requirements, code, and observed results
+
+The goal is not to generate empty formalism. The goal is to reduce report-writing labor without faking evidence.
 
 ## Overview
 
